@@ -27,12 +27,14 @@ class BinaryHeap:
 
 new = BinaryHeap()
 
-inlist = [5, 9, 11, 14, 18, 19, 21, 33, 17, 27, 12]
+inlist = [5, 9, 11, 14, 18, 19, 21, 33, 17, 27]
 
 for i in inlist:
     new.add(i)
-new.add(2)
+new.add(12)
+
 new.print()
-new.delete()
-new.print()
+# # new.delete()
+# new.add(1)
+# new.print()
 
